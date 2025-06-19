@@ -1,24 +1,25 @@
 {
-  "name": "backyard-life-game",
-  "version": "1.0.0",
-  "description": "A 16-bit style HTML5 backyard life simulation game with mobile support",
-  "main": "index.html",
-  "scripts": {
-    "dev": "python -m http.server 3000",
-    "start": "python -m http.server 8000"
-  },
-  "keywords": [
-    "game",
-    "html5",
-    "canvas",
-    "16-bit",
-    "pixel-art",
-    "mobile",
-    "simulation"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0"
-  }
+    "name": "backyard-life-game",
+    "version": "1.0.0",
+    "description": "A 16-bit style HTML5 backyard life simulation game with mobile support",
+    "main": "index.html",
+    "scripts": {
+        "dev": "npx http-server -p 3000",
+        "start": "npx http-server -p 8000",
+        "build": "echo 'Static site - no build required'"
+    },
+    "keywords": [
+        "game",
+        "html5",
+        "canvas",
+        "16-bit",
+        "pixel-art",
+        "mobile",
+        "simulation"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    }
 }
